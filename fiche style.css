@@ -1,97 +1,90 @@
-/* Style général */
-
-body {
-  width: 700px;
-  height: 800px;
-  background-image: url("https://i.ibb.co/cj30kVJ/backgound.png");
-  text-bg-color: #dfd6cfe3;
-  accent: #618e93;
-  text-color: #000;
-  white-space: normal;
+/* Structure principale */
+#Ophiel-rp {
+  background-color: #1e1030;
+  background-image: url('https://i.ibb.co/cj30kVJ/backgound.png');
+  background-size: cover;
+  color: #ccc;
+  font-family: 'Georgia', serif;
+  width: 600px;
+  margin: auto;
+  border: 2px solid #29194d;
+  position: relative;
+  padding: 20px;
 }
 
-/* Conteneur principal */
-#Ophiel-rp {
-  max-width: 450px;
-  margin: 40px auto;
-  background-color: rgba(20, 20, 50, 0.8);
-  border: 2px solid #222;
-  padding: 20px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
+/* Épée décorative */
+#Ophiel-rp::before {
+  content: "";
+  background-image: url('https://i.ibb.co/5gy9qwwm/rapiere.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -60px;
+  top: 100px;
+  width: 100px;
+  height: 500px;
+  z-index: 2;
 }
 
 /* Header */
 .header {
   text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #444;
-}
-
-.header h1 {
-  font-size: 2em;
-  margin: 0;
-  color: #d4b4ff;
-}
-
-.header h2 {
-  font-size: 1.2em;
-  margin: 10px 0;
+  padding: 10px;
+  background-color: #3e2a63;
+  font-size: 24px;
+  color: #c2b7e0;
   font-style: italic;
-  color: #c2a9f0;
+  letter-spacing: 1px;
+}
+
+/* Citation */
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #ccc;
 }
 
 /* Avatars */
 .avatars {
-  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
 }
 
-.avatars a img {
-  width: 100px;
-  height: 100px;
+.avatars img {
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
-  border: 2px solid #c2a9f0;
-  margin: 0 5px;
+  border: 2px solid #3e2a63;
   transition: transform 0.3s ease;
 }
 
-.avatars a:hover img {
+.avatars img:hover {
   transform: scale(1.2);
-  z-index: 2;
+  cursor: pointer;
 }
 
-/* Conteneur principal */
+/* Contenu principal */
 .contain {
-  display: flex;
-  margin-top: 20px;
+  background-color: rgba(40, 30, 60, 0.6);
+  padding: 20px;
+  border: 2px solid #29194d;
   position: relative;
-}
-
-/* Illustration décorative */
-.rapière img {
-  height: 100%;
-  max-height: 400px;
-  position: absolute;
-  left: -60px;
-  top: 0;
+  z-index: 1;
 }
 
 /* Texte RP */
 .text-rp {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 20px;
-  border-radius: 8px;
-  flex: 1;
-  margin-left: 80px; /* pour laisser de la place à l'image à gauche */
-  line-height: 1.6;
-  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e0d8f3;
 }
 
 /* Footer */
-footer {
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
   text-align: center;
-  margin-top: 40px;
-  font-size: 0.8em;
-  color: #aaa;
+  color: #999;
 }

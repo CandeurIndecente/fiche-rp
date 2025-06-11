@@ -1,6 +1,6 @@
 /* Style général */
 
-#Ophiel_rp {
+body {
   --width: 740px;
   --image-size: 140px;
   --background: #efefef;
@@ -10,14 +10,6 @@
   --text-color: #000;
   width: var(--width);
   white-space: normal;
-}
-
-body {
-  background-color: #0e0e2c;
-  color: #eaeaea;
-  font-family: 'Georgia', serif;
-  margin: 0;
-  padding: 0;
 }
 
 /* Conteneur principal */

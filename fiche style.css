@@ -2,8 +2,8 @@
 
 body {
   width: 500px;
+  height: 800px;
   background-image: url("https://i.ibb.co/cj30kVJ/backgound.png");
-  bg-color: #e3dcd2;
   text-bg-color: #dfd6cfe3;
   accent: #618e93;
   text-color: #000;
@@ -12,7 +12,7 @@ body {
 
 /* Conteneur principal */
 #Ophiel-rp {
-  max-width: 900px;
+  max-width: 450px;
   margin: 40px auto;
   background-color: rgba(20, 20, 50, 0.8);
   border: 2px solid #222;

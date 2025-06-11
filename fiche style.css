@@ -9,5 +9,8 @@
 /* Sous-Titre* /
 
 #Ophiel_rp .header > h2 {
-  font-family: 'Instrument Serif Regular';
+  font-family: "Instrument Serif Regular", serif;
+  font-size : 20px;
+  letter-spacing : 2px;
+  color : purple;
 }

@@ -1,3 +1,11 @@
+/* BASE DE LA FICHE */
+#Ophiel_rp {
+  height : 1900px;
+  width : 1200px;
+  background-image: url("https://media.discordapp.net/attachments/566647419228651540/1382297795288891493/image.png?ex=684aa4a4&is=68495324&hm=e5a920d09a516c93842285a0c175a5ecb38073ba62827456d0b3257a4a26405d&=&format=webp&quality=lossless&width=599&height=959");
+  align-content : center;
+}
+
 /* TITRE */
 
 #Ophiel_rp .header > h1 {

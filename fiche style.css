@@ -1,4 +1,6 @@
 /* FONT */
+
+/*Celui-là pour la citation*/
 .instrument-serif-regular {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
@@ -10,3 +12,29 @@
   font-weight: 400;
   font-style: italic;
 }
+
+/*Celui là pour le titre*/
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.league-script-regular {
+  font-family: "League Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* TITRE */
+
+#h1 {
+  font-family : "League Script", cursive;
+  font-size : 16px;
+}
+

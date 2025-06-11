@@ -9,11 +9,9 @@
 
 /* Sous-Titre */
 
-#Ophiel_rp .header > span i {
-  display : block;
-  font-family: "Instrument Serif Regular", serif;
+#Ophiel_rp .header > h2 {
+  font-family: "Instrument Serif", serif;
   font-size : 20px;
   letter-spacing : 2px;
-  text-color : purple;
   text-align : center,
 }

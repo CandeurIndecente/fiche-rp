@@ -15,10 +15,10 @@
 /* Épée décorative */
 #Ophiel-rp::before {
   content: "";
-  background-image: url('https://i.ibb.co/5gy9qwwm/rapiere.jpg');
+  background-image: url('URL_EPEE');
   background-size: contain;
   background-repeat: no-repeat;
-  position: absolute;
+  position: fixed;
   left: -60px;
   top: 100px;
   width: 100px;

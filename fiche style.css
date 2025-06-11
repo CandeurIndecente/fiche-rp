@@ -1,90 +1,12 @@
-/* Structure principale */
-#Ophiel-rp {
-  background-color: #1e1030;
-  background-image: url('https://i.ibb.co/cj30kVJ/backgound.png');
-  background-size: cover;
-  color: #ccc;
-  font-family: 'Georgia', serif;
-  width: 600px;
-  margin: auto;
-  border: 2px solid #29194d;
-  position: relative;
-  padding: 20px;
+/* FONT */
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* Épée décorative 
-#Ophiel-rp::before {
-  content: "";
-  background-image: url('URL_EPEE');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: fixed;
-  left: -60px;
-  top: 100px;
-  width: 100px;
-  height: 500px;
-  z-index: 2;
-/* }* */
-
-/* Header */
-.header {
-  text-align: center;
-  padding: 10px;
-  background-color: #3e2a63;
-  font-size: 24px;
-  color: #c2b7e0;
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
   font-style: italic;
-  letter-spacing: 1px;
-}
-
-/* Citation */
-.header h2 {
-  margin: 0;
-  font-size: 20px;
-  color: #ccc;
-}
-
-/* Avatars */
-.avatars {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin: 15px 0;
-}
-
-.avatars img {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  border: 2px solid #3e2a63;
-  transition: transform 0.3s ease;
-}
-
-.avatars img:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
-/* Contenu principal */
-.contain {
-  background-color: rgba(40, 30, 60, 0.6);
-  padding: 20px;
-  border: 2px solid #29194d;
-  position: relative;
-  z-index: 1;
-}
-
-/* Texte RP */
-.text-rp {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #e0d8f3;
-}
-
-/* Footer */
-.footer {
-  margin-top: 20px;
-  font-size: 12px;
-  text-align: center;
-  color: #999;
 }

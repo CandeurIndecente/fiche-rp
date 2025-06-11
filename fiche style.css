@@ -1,14 +1,12 @@
 /* Style général */
 
 body {
-  width: 740px;
-  image-size: 140px;
+  width: 500px;
   background: #efefef;
   bg-color: #e3dcd2;
   text-bg-color: #dfd6cfe3;
   accent: #618e93;
   text-color: #000;
-  width: var(--width);
   white-space: normal;
 }
 

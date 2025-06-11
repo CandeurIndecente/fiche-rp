@@ -4,13 +4,16 @@
   font-family: 'League Script', sans-serif;
   font-size : 46px;
   letter-spacing: 5px;
+  text-align : center;
 }
 
 /* Sous-Titre* /
 
-#Ophiel_rp .header > h2 {
+#Ophiel_rp .header > span i {
+  display : block;
   font-family: "Instrument Serif Regular", serif;
   font-size : 20px;
   letter-spacing : 2px;
-  color : purple;
+  text-color : purple;
+  text-align : center,
 }

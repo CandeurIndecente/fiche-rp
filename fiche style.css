@@ -10,8 +10,8 @@
 /* Sous-Titre */
 
 #Ophiel_rp .header > h2 {
-  font-family: "Instrument Serif", serif;
-  font-size : 20px;
-  letter-spacing : 2px;
-  text-align : center,
+  font-family: 'League Script', sans-serif;
+  font-size : 46px;
+  letter-spacing: 5px;
+  text-align : center;
 }

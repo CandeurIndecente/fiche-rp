@@ -1,0 +1,138 @@
+/* BASE DE LA FICHE */
+
+#Ophiel_rp .contenu {
+  height : 760px;
+  width : 600px;
+  background-color: #cccccc;
+  border: solid, #616161, 4px;
+  border-radius: 50px 2px 50px 2px;
+  position: relative;
+}
+
+
+/* TITRE */
+
+#Ophiel_rp .contenu .header > .NomPerso {
+  font-family: 'League Script', sans-serif;
+  font-size : 73px;
+  letter-spacing: 5px;
+  text-align : center;
+  display: block;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+/* Sous-Titre */
+
+#Ophiel_rp .contenu .header > .TitreRP {
+  font-family: "Instrument Serif", serif;
+  font-size : 50px;
+  letter-spacing: 10px;
+  display: block;
+  background-color : #616161;
+  height: 20px;
+  width: 100%;
+  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  align-items: center;
+  justify-content: center; 
+  position: absolute;
+  margin-top: -20px;
+}
+
+/*avatar*/
+
+#Ophiel_rp .contenu .avatars a img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid #616161;
+  margin: 11 5px;
+  transition: transform 0.3s ease;
+}
+
+#Ophiel_rp .contenu .avatars a:hover img
+{
+	
+transform: scale(1.2);
+  z-index: 2;
+}
+
+/*On modifie l'image*/
+
+#Ophiel_rp .contenu .rapiere img {
+  height: 70%;
+  max-height: 300x;
+  position: absolute;
+  left: -20px;
+  top: 200px;
+}
+
+/*Ici je met en forme le bloc de rp*/
+
+#Ophiel_rp .contenu .text-rp {
+    background:rgba(255,255,255,0.4);
+    border: solid, rgba(255,255,255,0.8);
+    height: 475px;
+    width: 525px;
+    margin-left: 25px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+/*DENTELLE*/
+
+#Ophiel_rp .text-rp .dentelle {
+  position: absolute;
+  bottom: 30;
+  left: 47;
+  width: 531px;
+  height: auto;
+  filter: brightness(10) invert(0);
+}
+	
+#Ophiel_rp .text-rp > .RP {
+  color: black;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+  padding: 30px;
+}
+
+/*Première lettre*/
+
+#Ophiel_rp .text-rp > .RP::first-letter {
+  font-size: 3em;
+  color: black;
+  float: left;
+  line-height: 0.1;
+  padding-right: 8px;
+  font-family: "Instrument Serif", serif;
+
+
+/*Paragraphe pour ne pas utiliser première lettre*/
+
+#Ophiel_rp .text-rp > .suite {
+  color: black;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+  padding: 30px;
+}
+
+/*FOOTER*/
+
+#Ophiel_rp footer {
+  text-align: center;
+  font-family: "Instrument Serif", serif;
+  font-size: 16px;
+  color: #616161;
+  padding: 1px;
+  margin-top: 20px;
+}

@@ -12,7 +12,7 @@
   padding: 20px;
 }
 
-/* Épée décorative */
+/* Épée décorative 
 #Ophiel-rp::before {
   content: "";
   background-image: url('URL_EPEE');
@@ -24,7 +24,7 @@
   width: 100px;
   height: 500px;
   z-index: 2;
-}
+/* }* */
 
 /* Header */
 .header {

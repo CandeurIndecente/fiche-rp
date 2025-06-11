@@ -1,40 +1,14 @@
-/* FONT */
-
-/*Celui-là pour la citation*/
-.instrument-serif-regular {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.instrument-serif-regular-italic {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-/*Celui là pour le titre*/
-.instrument-serif-regular {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.instrument-serif-regular-italic {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-.league-script-regular {
-  font-family: "League Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* TITRE */
 
-#h1 {
-  font-family : "League Script", cursive;
-  font-size : 16px;
+h1 {
+  font-family: 'League Script', sans-serif;
+  font-size : 30px;
+  letter-spacing: 3px;
 }
 
+/* Sous-Titre* /
+
+h2 {
+  font-family: 'Instrument Serif', serif;
+  font-size : 24px;
+}
